@@ -3,7 +3,9 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of austalk is to ...
+The `austalk` package provides an interface to the Austalk speech collection on the Alveo Virtual Lab.  It
+makes use of the `alveo` package to identify speakers and items for download. 
+
 
 ## Installation
 
