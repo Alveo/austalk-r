@@ -1,0 +1,155 @@
+---
+title: "Introduction"
+author: "Steve Cassidy"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+The `austalk` package provides access to the Austalk speech database via the Alveo API. 
+
+[Austalk](https://austalk.edu.au/) is a large state-of-the-art database of modern spoken Australian English from all around the country. Recorded between June 2011 and June 2016, the final database contains full audio-visual data for 861 adult speakers (with age ranging from 18 to 83) from 15 different locations in all Australian states & territories, representing the regional and social diversity and linguistic variation of Australian English, including Australian Aboriginal English.
+
+[Alveo](https://alveo.edu.au/) is a Virtual Laboratory supporting research in speech and 
+language and provides a data repository with a rich API.   There is a separate R library
+that provides general access to the API from R.  This library builds on that to provide
+specific functions relevant to the Austalk collection.
+
+## Installation
+
+```{r}
+library(alveo)
+library(austalk)
+```
+
+## Alveo API
+
+The Alveo API provides access by scripts such as these to the data stored on 
+the Alveo system.  Since all data access on Alveo is protected, we need a way
+to verify who is accessing data.  On the website you would just log in to Alveo
+to verify your identity.  For scripts written in R you need to use an API Key downloaded
+from the site.  See [the help pages](http://alveo.edu.au/documentation/getting-access-to-alveo-and-galaxy/whats-an-api-key/) for details of how to find your API key.   This library assumes that you
+have downloaded the `alveo.config` file via the **Download API Key** sub-menu and 
+saved that file in your home directory. You can find where R thinks your home directory 
+is by running:
+
+```r
+Sys.getenv("HOME")
+```
+
+## Structure of Austalk
+
+The Austalk collection contains data from a large number of speakers. Each speaker
+attended up to three **sessions**. Within each session they recorded a number of
+**components**, for example reading word lists or being part of a Map Task game.  Within
+each component, one or more recordings were made, each recording is an **item**.   Each
+item contains recordings of different audio channels and may have associated 
+annotation files.
+
+## Information About Speakers
+
+Two functions are provided to retrieve information about speakers in Austalk.  The first,
+`speakers()` returns a data frame containing one row per speaker and columns for various 
+metadata properties. 
+
+```{r}
+spk <- speakers()
+names(spk)
+```
+These properties can be used to filter the list of speakers to match certain criteria. For
+example to find females over 75:
+
+```{r}
+females <- spk[spk$age>75 & spk$gender=='female',]
+females[,c('speaker', 'gender', 'age')]
+```
+
+The second function returns information about how many recorded items there are for a given
+component for each speaker.  Some speakers are identified in the system but have missing data
+for one or more sessions or have incomplete items for a component.   This function can be useful to 
+ensure that the speakers you work with have data for the target component.  
+
+```{r} 
+spk.items <- speaker_items(c('digits', 'sentences'))
+spk.items[1:10,]
+```
+
+This result could be merged with the list of speakers obtained earlier:
+
+```{r}
+females <- merge(females, spk.items, by='speaker')
+females[,c('speaker', 'age', 'digits', 'sentences')]
+```
+
+You can see in this example that only those speakers with some data are included in the merged data frame
+(speaker 2_1049 is excluded).
+
+
+## Information about Components
+
+Components are the tasks in Austalk, each consists of a number of items which are individual recordings.
+You can find the complete list of component names with the `components` function:
+
+```{r}
+components()
+```
+
+(Note that this list includes some component names that are not part of the main Austalk collection
+those starging with "Emotion" are relevant to another collection and will be removed at some point.)
+
+The component short name can then be used to access a list of prompts used in each component. These 
+are the prompts displayed to participants for the read speech components or on-screen instructions for
+the spontaneous ones.  For example:
+
+```{r}
+prompts('digits')
+```
+
+```{r}
+prompts('yes-no-closing')
+```
+
+## Retrieving Items
+
+Given a list of speakers we can retrieve a list of items for a given component using the `componentItems()` function:
+
+```{r}
+items <- componentItems(females, 'digits')
+items[1:5,]
+```
+
+This returns a data frame containing the speaker, the item identifier and the URL of the item on the
+Alveo system. This information can then be used to download data for each item from Alveo using the 
+`downloadItems` function.  This function takes a list of channel names or patterns to match
+the files that should be downloaded.  A common example would be to download only the 16 bit/16 kHz
+version of the speaker headset microphone - these files have the suffix `ch6-speaker16.wav`. The
+following example would download these files:
+
+```r
+filelist <- downloadItems(items, 'data', 'speaker16')
+```
+The returned value is a list of local filenames that were downloaded.
+
+The channel list can include more than one pattern, so to download both the audio file and any
+associated TextGrid annotations you would use:
+
+```r
+downloadItems(items, 'data', c('speaker16', 'TextGrid'))
+```
+
+## Contributions
+
+Get items associated with a contribution...
+
+
+

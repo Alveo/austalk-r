@@ -5,9 +5,8 @@ require(alveo)
 #'
 #' @param speakers A vector of speaker identifiers, eg. "1_10"
 #' @param component The Austalk component name, eg. 'digits', see `components()` for a full list
-#' @return an alveo::ItemList
+#' @return a dataframe containing item URLs, speaker id and item id
 #' @export
-#' @example componentItems('1_10', 'digits')
 #'
 componentItems <- function(speakers, component) {
 
@@ -18,10 +17,10 @@ componentItems <- function(speakers, component) {
   PREFIX olac:<http://www.language-archives.org/OLAC/1.1/>
   PREFIX ausnc:<http://ns.ausnc.org.au/schemas/ausnc_md_model/>
 
-  SELECT ?spkrid ?item_url ?itemid WHERE {
-  BIND ('%s' as ?spkrid)
+  SELECT ?speaker ?item_url ?itemid WHERE {
+  BIND ('%s' as ?speaker)
       ?spkr a foaf:Person .
-      ?spkr dcterms:identifier ?spkrid .
+      ?spkr dcterms:identifier ?speaker .
       ?item_url a ausnc:AusNCObject .
       ?item_url dcterms:identifier ?itemid .
       ?item_url olac:speaker ?spkr .
@@ -54,7 +53,6 @@ downloadItems <- function(items, destination, channels=c('speaker16')) {
   # make a regex to match any of the provided channel strings
   pattern = paste(channels, collapse="|")
 
-  print(pattern)
   item_list$download(destination, pattern=pattern)
 
 }
