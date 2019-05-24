@@ -11,8 +11,8 @@ makes use of the `alveo` package to identify speakers and items for download.
 You can install the released version of austalk fro
 ``` r
 library(devtools)
-install_github("Alveo", "alveo-r")
-install_github("Alveo", "austalk-r")
+install_github("Alveo/alveo-r")
+install_github("Alveo/austalk-r")
 ```
 
 You can then load the library to access Austalk data via the Alveo API.  The library contains functions
