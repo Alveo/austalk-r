@@ -1,0 +1,349 @@
+{
+    "head": {
+        "vars": [
+            "speaker",
+            "item_url",
+            "itemid"
+        ]
+    },
+    "results": {
+        "bindings": [
+            {
+                "itemid": {
+                    "type": "literal",
+                    "value": "1_1_2_5_007"
+                },
+                "speaker": {
+                    "type": "literal",
+                    "value": "1_1"
+                },
+                "item_url": {
+                    "type": "uri",
+                    "value": "https://app.alveo.edu.au/catalog/austalk/1_1_2_5_007"
+                }
+            },
+            {
+                "itemid": {
+                    "type": "literal",
+                    "value": "1_1_2_5_003"
+                },
+                "speaker": {
+                    "type": "literal",
+                    "value": "1_1"
+                },
+                "item_url": {
+                    "type": "uri",
+                    "value": "https://app.alveo.edu.au/catalog/austalk/1_1_2_5_003"
+                }
+            },
+            {
+                "itemid": {
+                    "type": "literal",
+                    "value": "1_1_2_5_006"
+                },
+                "speaker": {
+                    "type": "literal",
+                    "value": "1_1"
+                },
+                "item_url": {
+                    "type": "uri",
+                    "value": "https://app.alveo.edu.au/catalog/austalk/1_1_2_5_006"
+                }
+            },
+            {
+                "itemid": {
+                    "type": "literal",
+                    "value": "1_1_2_5_001"
+                },
+                "speaker": {
+                    "type": "literal",
+                    "value": "1_1"
+                },
+                "item_url": {
+                    "type": "uri",
+                    "value": "https://app.alveo.edu.au/catalog/austalk/1_1_2_5_001"
+                }
+            },
+            {
+                "itemid": {
+                    "type": "literal",
+                    "value": "1_1_2_5_008"
+                },
+                "speaker": {
+                    "type": "literal",
+                    "value": "1_1"
+                },
+                "item_url": {
+                    "type": "uri",
+                    "value": "https://app.alveo.edu.au/catalog/austalk/1_1_2_5_008"
+                }
+            },
+            {
+                "itemid": {
+                    "type": "literal",
+                    "value": "1_1_2_5_012"
+                },
+                "speaker": {
+                    "type": "literal",
+                    "value": "1_1"
+                },
+                "item_url": {
+                    "type": "uri",
+                    "value": "https://app.alveo.edu.au/catalog/austalk/1_1_2_5_012"
+                }
+            },
+            {
+                "itemid": {
+                    "type": "literal",
+                    "value": "1_1_2_5_002"
+                },
+                "speaker": {
+                    "type": "literal",
+                    "value": "1_1"
+                },
+                "item_url": {
+                    "type": "uri",
+                    "value": "https://app.alveo.edu.au/catalog/austalk/1_1_2_5_002"
+                }
+            },
+            {
+                "itemid": {
+                    "type": "literal",
+                    "value": "1_1_2_5_009"
+                },
+                "speaker": {
+                    "type": "literal",
+                    "value": "1_1"
+                },
+                "item_url": {
+                    "type": "uri",
+                    "value": "https://app.alveo.edu.au/catalog/austalk/1_1_2_5_009"
+                }
+            },
+            {
+                "itemid": {
+                    "type": "literal",
+                    "value": "1_1_2_5_011"
+                },
+                "speaker": {
+                    "type": "literal",
+                    "value": "1_1"
+                },
+                "item_url": {
+                    "type": "uri",
+                    "value": "https://app.alveo.edu.au/catalog/austalk/1_1_2_5_011"
+                }
+            },
+            {
+                "itemid": {
+                    "type": "literal",
+                    "value": "1_1_2_5_004"
+                },
+                "speaker": {
+                    "type": "literal",
+                    "value": "1_1"
+                },
+                "item_url": {
+                    "type": "uri",
+                    "value": "https://app.alveo.edu.au/catalog/austalk/1_1_2_5_004"
+                }
+            },
+            {
+                "itemid": {
+                    "type": "literal",
+                    "value": "1_1_2_5_010"
+                },
+                "speaker": {
+                    "type": "literal",
+                    "value": "1_1"
+                },
+                "item_url": {
+                    "type": "uri",
+                    "value": "https://app.alveo.edu.au/catalog/austalk/1_1_2_5_010"
+                }
+            },
+            {
+                "itemid": {
+                    "type": "literal",
+                    "value": "1_1_2_5_005"
+                },
+                "speaker": {
+                    "type": "literal",
+                    "value": "1_1"
+                },
+                "item_url": {
+                    "type": "uri",
+                    "value": "https://app.alveo.edu.au/catalog/austalk/1_1_2_5_005"
+                }
+            },
+            {
+                "itemid": {
+                    "type": "literal",
+                    "value": "1_1_1_5_001"
+                },
+                "speaker": {
+                    "type": "literal",
+                    "value": "1_1"
+                },
+                "item_url": {
+                    "type": "uri",
+                    "value": "https://app.alveo.edu.au/catalog/austalk/1_1_1_5_001"
+                }
+            },
+            {
+                "itemid": {
+                    "type": "literal",
+                    "value": "1_1_1_5_002"
+                },
+                "speaker": {
+                    "type": "literal",
+                    "value": "1_1"
+                },
+                "item_url": {
+                    "type": "uri",
+                    "value": "https://app.alveo.edu.au/catalog/austalk/1_1_1_5_002"
+                }
+            },
+            {
+                "itemid": {
+                    "type": "literal",
+                    "value": "1_1_1_5_006"
+                },
+                "speaker": {
+                    "type": "literal",
+                    "value": "1_1"
+                },
+                "item_url": {
+                    "type": "uri",
+                    "value": "https://app.alveo.edu.au/catalog/austalk/1_1_1_5_006"
+                }
+            },
+            {
+                "itemid": {
+                    "type": "literal",
+                    "value": "1_1_1_5_009"
+                },
+                "speaker": {
+                    "type": "literal",
+                    "value": "1_1"
+                },
+                "item_url": {
+                    "type": "uri",
+                    "value": "https://app.alveo.edu.au/catalog/austalk/1_1_1_5_009"
+                }
+            },
+            {
+                "itemid": {
+                    "type": "literal",
+                    "value": "1_1_1_5_007"
+                },
+                "speaker": {
+                    "type": "literal",
+                    "value": "1_1"
+                },
+                "item_url": {
+                    "type": "uri",
+                    "value": "https://app.alveo.edu.au/catalog/austalk/1_1_1_5_007"
+                }
+            },
+            {
+                "itemid": {
+                    "type": "literal",
+                    "value": "1_1_1_5_008"
+                },
+                "speaker": {
+                    "type": "literal",
+                    "value": "1_1"
+                },
+                "item_url": {
+                    "type": "uri",
+                    "value": "https://app.alveo.edu.au/catalog/austalk/1_1_1_5_008"
+                }
+            },
+            {
+                "itemid": {
+                    "type": "literal",
+                    "value": "1_1_1_5_003"
+                },
+                "speaker": {
+                    "type": "literal",
+                    "value": "1_1"
+                },
+                "item_url": {
+                    "type": "uri",
+                    "value": "https://app.alveo.edu.au/catalog/austalk/1_1_1_5_003"
+                }
+            },
+            {
+                "itemid": {
+                    "type": "literal",
+                    "value": "1_1_1_5_005"
+                },
+                "speaker": {
+                    "type": "literal",
+                    "value": "1_1"
+                },
+                "item_url": {
+                    "type": "uri",
+                    "value": "https://app.alveo.edu.au/catalog/austalk/1_1_1_5_005"
+                }
+            },
+            {
+                "itemid": {
+                    "type": "literal",
+                    "value": "1_1_1_5_010"
+                },
+                "speaker": {
+                    "type": "literal",
+                    "value": "1_1"
+                },
+                "item_url": {
+                    "type": "uri",
+                    "value": "https://app.alveo.edu.au/catalog/austalk/1_1_1_5_010"
+                }
+            },
+            {
+                "itemid": {
+                    "type": "literal",
+                    "value": "1_1_1_5_012"
+                },
+                "speaker": {
+                    "type": "literal",
+                    "value": "1_1"
+                },
+                "item_url": {
+                    "type": "uri",
+                    "value": "https://app.alveo.edu.au/catalog/austalk/1_1_1_5_012"
+                }
+            },
+            {
+                "itemid": {
+                    "type": "literal",
+                    "value": "1_1_1_5_004"
+                },
+                "speaker": {
+                    "type": "literal",
+                    "value": "1_1"
+                },
+                "item_url": {
+                    "type": "uri",
+                    "value": "https://app.alveo.edu.au/catalog/austalk/1_1_1_5_004"
+                }
+            },
+            {
+                "itemid": {
+                    "type": "literal",
+                    "value": "1_1_1_5_011"
+                },
+                "speaker": {
+                    "type": "literal",
+                    "value": "1_1"
+                },
+                "item_url": {
+                    "type": "uri",
+                    "value": "https://app.alveo.edu.au/catalog/austalk/1_1_1_5_011"
+                }
+            }
+        ]
+    }
+}

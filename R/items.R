@@ -45,6 +45,7 @@ componentItems <- function(speakers, component) {
 #' @param channels A vector of channel names or patterns matching files to be downloaded
 #'
 #' @return Files are downloaded
+#' @export
 downloadItems <- function(items, destination, channels=c('speaker16')) {
 
   # make an item list out of the item urls
@@ -54,6 +55,62 @@ downloadItems <- function(items, destination, channels=c('speaker16')) {
   pattern = paste(channels, collapse="|")
 
   item_list$download(destination, pattern=pattern)
+
+}
+
+
+
+#' Get a list of items from an item list
+#'
+#' @param url The URL of the item list
+#'
+#' @return A data frame containing the item URLs
+#' @export
+getItemList <- function(url) {
+
+  client <- alveo::RestClient()
+  item_list <- client$get_item_list(url)
+  # warn if items do not belong to austalk
+
+  collection <- sapply(strsplit(item_list$items, '/'), function(s) s[5])
+
+  if (!all(collection == 'austalk')) {
+    stop("Item list contains items from collections other than Austalk, use alveo::get_item_list instead")
+  }
+
+  itemids <- sapply(strsplit(item_list$items, '/'), function(s) s[6]  )
+  speakers <- sapply(strsplit(itemids, '_'), function(s) paste(s[1], s[2], sep='_'))
+  result = data.frame( speakers=speakers, item_url=item_list$items, itemid=itemids, stringsAsFactors = FALSE)
+
+  return(result)
+}
+
+
+
+#' Get list of items from a contribution
+#'
+#' @param url The URL of the contribution
+#'
+#' @return A data frame containing item urls
+#' @export
+getContribution <- function(url) {
+
+  client <- alveo::RestClient()
+  contrib <- client$get_contribution(url)
+
+  docurls <- sapply(contrib$documents, function(s) s$url)
+  itemurls <- sapply(strsplit(docurls, '/document/'), function(s) s[1])
+
+  collection <- sapply(strsplit(itemurls, '/'), function(s) s[5])
+
+  if (!all(collection == 'austalk')) {
+    stop("Item list contains items from collections other than Austalk, use alveo::get_item_list instead")
+  }
+
+  itemids <- sapply(strsplit(itemurls, '/'), function(s) s[6]  )
+  speakers <- sapply(strsplit(itemids, '_'), function(s) paste(s[1], s[2], sep='_'))
+  result = data.frame( speakers=speakers, item_url=itemurls, itemid=itemids, stringsAsFactors = FALSE)
+  return(result)
 
 }
 

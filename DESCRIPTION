@@ -1,23 +1,25 @@
 Package: austalk
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: Access Data from the Austalk Speech Corpus
+Version: 1.0.0
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Steve",
+           family = "Cassidy",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+           email = "steve.cassidy@mq.edu.au",
+           comment = c(ORCID = "https://orcid.org/0000-0003-2357-9652"))
+Description: Provides an interface to retrieve speech data from the Austalk collection 
+  stored on the Alveo system.  Find speakers and filter using metadata, locate 
+  recordings for each speaker and then download audio and other data. 
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Imports: 
-    alveo,
-    magrittr
+    alveo
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 6.1.1
 Suggests: 
-    testthat,
+    httptest,
     knitr,
-    rmarkdown
+    rmarkdown,
+    testthat
 VignetteBuilder: knitr

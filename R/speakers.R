@@ -70,8 +70,9 @@ PREFIX foaf:<http://xmlns.com/foaf/0.1/>
 #'
 #' @param components a vector of component names, eg. c('digits', 'words-1'), see `components()` for a full list
 #' @return a data.frame containing speaker ids and a count of items for each component
+#' @export
 #'
-"speaker_items" <- function(components) {
+"speakerItems" <- function(components) {
 
   query_template <- "
   PREFIX dcterms:<http://purl.org/dc/terms/>

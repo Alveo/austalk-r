@@ -1,0 +1,292 @@
+{
+    "head": {
+        "vars": [
+            "shortname",
+            "name"
+        ]
+    },
+    "results": {
+        "bindings": [
+            {
+                "name": {
+                    "type": "literal",
+                    "value": "Words - Session 2 (v2)"
+                },
+                "shortname": {
+                    "type": "literal",
+                    "value": "words-2-2"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "value": "Words - Session 3"
+                },
+                "shortname": {
+                    "type": "literal",
+                    "value": "words-3"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "value": "Words - Session 1"
+                },
+                "shortname": {
+                    "type": "literal",
+                    "value": "words-1"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "value": "Words - Session 1 (v2)"
+                },
+                "shortname": {
+                    "type": "literal",
+                    "value": "words-1-2"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "value": "Words - Session 2"
+                },
+                "shortname": {
+                    "type": "literal",
+                    "value": "words-2"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "value": "Calibration"
+                },
+                "shortname": {
+                    "type": "literal",
+                    "value": "calibration"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "value": "Words - Session 3 (v2)"
+                },
+                "shortname": {
+                    "type": "literal",
+                    "value": "words-3-2"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "value": "Sentences Session 2 (early)"
+                },
+                "shortname": {
+                    "type": "literal",
+                    "value": "sentences-e"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "value": "Digits"
+                },
+                "shortname": {
+                    "type": "literal",
+                    "value": "digits"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "value": "Sentences Session 2"
+                },
+                "shortname": {
+                    "type": "literal",
+                    "value": "sentences"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "value": "Map Task 2"
+                },
+                "shortname": {
+                    "type": "literal",
+                    "value": "maptask-2"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "value": "Yes/No Opening"
+                },
+                "shortname": {
+                    "type": "literal",
+                    "value": "yes-no-opening-1"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "value": "Conversation"
+                },
+                "shortname": {
+                    "type": "literal",
+                    "value": "conversation"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "value": "Yes/No Opening"
+                },
+                "shortname": {
+                    "type": "literal",
+                    "value": "yes-no-opening-3"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "value": "Yes/No Closing"
+                },
+                "shortname": {
+                    "type": "literal",
+                    "value": "yes-no-closing"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "value": "Interview"
+                },
+                "shortname": {
+                    "type": "literal",
+                    "value": "interview"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "value": "Emotion-Images3"
+                },
+                "shortname": {
+                    "type": "literal",
+                    "value": "Emotion-Images"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "value": "Emotion-Videos2"
+                },
+                "shortname": {
+                    "type": "literal",
+                    "value": "Emotion-Videos"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "value": "Yes/No Opening"
+                },
+                "shortname": {
+                    "type": "literal",
+                    "value": "yes-no-opening-2"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "value": "Story"
+                },
+                "shortname": {
+                    "type": "literal",
+                    "value": "story"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "value": "Emotion-Videos3"
+                },
+                "shortname": {
+                    "type": "literal",
+                    "value": "Emotion-Videos"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "value": "Map Task 1"
+                },
+                "shortname": {
+                    "type": "literal",
+                    "value": "maptask-1"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "value": "Emotion-Images1"
+                },
+                "shortname": {
+                    "type": "literal",
+                    "value": "Emotion-Images"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "value": "InterviewEmo2"
+                },
+                "shortname": {
+                    "type": "literal",
+                    "value": "interview2"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "value": "Re-told Story"
+                },
+                "shortname": {
+                    "type": "literal",
+                    "value": "re-told-story"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "value": "Emotion-Images2"
+                },
+                "shortname": {
+                    "type": "literal",
+                    "value": "Emotion-Images"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "value": "InterviewEmo1"
+                },
+                "shortname": {
+                    "type": "literal",
+                    "value": "interview1"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "value": "Emotion-Videos1"
+                },
+                "shortname": {
+                    "type": "literal",
+                    "value": "Emotion-Videos"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,1156 @@
+{
+    "head": {
+        "vars": [
+            "speaker",
+            "words_1_2"
+        ]
+    },
+    "results": {
+        "bindings": [
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "3_1081"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "4_882"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "2_642"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "4_389"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "4_725"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "4_401"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "3_1040"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "1_127"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "105"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "4_524"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "2_1142"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "1_1085"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "2_945"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "4_421"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "2_467"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "4_791"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "3_1325"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "1_1274"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "2_1161"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "4_1362"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "1_1065"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "4_271"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "2_1176"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "3_999"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "3_933"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "1_1165"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "1_497"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "3_789"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "1_93"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "4_465"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "3_806"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "1_1290"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "3_257"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "2_688"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "1_299"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "1_907"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "1_1278"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "1_1303"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "4_1101"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "1_192"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "3_509"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "2_765"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "1_837"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "2_1143"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "1_1187"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "2_1309"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "4_682"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "4_467"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "2_6"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "3_1001"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "4_325"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "3_263"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "4_677"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "1_993"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "2_801"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "2_796"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "1_645"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "321"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "1_835"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "3_190"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "2_600"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "2_815"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "4_779"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "4_792"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "2_182"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "1_938"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "3_561"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "4_863"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "2_1218"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "1_186"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "4_887"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "3_567"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "4_98"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "2_939"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "3_850"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "3_1011"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "2_731"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "1_460"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "3_695"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "1_793"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "3_628"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "4_1296"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "1_947"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "2_192"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "4_44"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "2_1132"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "1_114"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "1_532"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "2_1059"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "2_462"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "2_29"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "3_758"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "3_845"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "1_488"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "3_1029"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "4_295"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "1_877"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "2_708"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "1_1080"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "4_733"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "4_628"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "4_1264"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "1_563"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "3_1002"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "1_957"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            },
+            {
+                "speaker": {
+                    "type": "literal",
+                    "value": "4_1305"
+                },
+                "words_1_2": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "322"
+                }
+            }
+        ]
+    }
+}

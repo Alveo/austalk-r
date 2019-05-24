@@ -80,7 +80,7 @@ for one or more sessions or have incomplete items for a component.   This functi
 ensure that the speakers you work with have data for the target component.  
 
 ```{r} 
-spk.items <- speaker_items(c('digits', 'sentences'))
+spk.items <- speakerItems(c('digits', 'sentences'))
 spk.items[1:10,]
 ```
 
@@ -149,7 +149,22 @@ downloadItems(items, 'data', c('speaker16', 'TextGrid'))
 
 ## Contributions
 
-Get items associated with a contribution...
+A [Contribution on Alveo](https://app.alveo.edu.au/contrib/) is a collection of files uploaded and
+associated with items in an existing collection.  You can download all of the files associated with a 
+contribution via the web page, but often you want to get other associated files.  To facilitate
+this, this library provides a function to get a contribution that returns a list of item URLs
+similar to that returned by other functions above.  You can then use this to find 
+the files you need and download them. 
 
+For example [this contribution](https://app.alveo.edu.au/contrib/11) includes Transcriber (trs) 
+files containing manual transcriptions of Austalk recordings.  We might want to get these files and
+the associated speaker16 audio channel.
+
+```r
+contrib <- getContribution('https://app.alveo.edu.au/contrib/11')
+downloadItems(contrib, 'austalk-transcriptions', c('speaker16.wav', 'trs'))
+```
+
+This will download the WAV and TXT files and store them in the folder 'austalk-transcriptions'.  
 
 

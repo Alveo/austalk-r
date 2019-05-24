@@ -1,0 +1,193 @@
+{
+    "head": {
+        "vars": [
+            "componentname",
+            "itemid",
+            "prompt"
+        ]
+    },
+    "results": {
+        "bindings": [
+            {
+                "componentname": {
+                    "type": "literal",
+                    "value": "Digits"
+                },
+                "itemid": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "12"
+                },
+                "prompt": {
+                    "type": "literal",
+                    "value": "oh four two nine"
+                }
+            },
+            {
+                "componentname": {
+                    "type": "literal",
+                    "value": "Digits"
+                },
+                "itemid": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "4"
+                },
+                "prompt": {
+                    "type": "literal",
+                    "value": "one two three zero"
+                }
+            },
+            {
+                "componentname": {
+                    "type": "literal",
+                    "value": "Digits"
+                },
+                "itemid": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "1"
+                },
+                "prompt": {
+                    "type": "literal",
+                    "value": "zero one two three"
+                }
+            },
+            {
+                "componentname": {
+                    "type": "literal",
+                    "value": "Digits"
+                },
+                "itemid": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "10"
+                },
+                "prompt": {
+                    "type": "literal",
+                    "value": "three zero one two"
+                }
+            },
+            {
+                "componentname": {
+                    "type": "literal",
+                    "value": "Digits"
+                },
+                "itemid": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "11"
+                },
+                "prompt": {
+                    "type": "literal",
+                    "value": "five six seven eight"
+                }
+            },
+            {
+                "componentname": {
+                    "type": "literal",
+                    "value": "Digits"
+                },
+                "itemid": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "9"
+                },
+                "prompt": {
+                    "type": "literal",
+                    "value": "eight five six seven"
+                }
+            },
+            {
+                "componentname": {
+                    "type": "literal",
+                    "value": "Digits"
+                },
+                "itemid": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "3"
+                },
+                "prompt": {
+                    "type": "literal",
+                    "value": "six seven eight five"
+                }
+            },
+            {
+                "componentname": {
+                    "type": "literal",
+                    "value": "Digits"
+                },
+                "itemid": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "6"
+                },
+                "prompt": {
+                    "type": "literal",
+                    "value": "two oh nine four"
+                }
+            },
+            {
+                "componentname": {
+                    "type": "literal",
+                    "value": "Digits"
+                },
+                "itemid": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "2"
+                },
+                "prompt": {
+                    "type": "literal",
+                    "value": "nine four two oh"
+                }
+            },
+            {
+                "componentname": {
+                    "type": "literal",
+                    "value": "Digits"
+                },
+                "itemid": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "8"
+                },
+                "prompt": {
+                    "type": "literal",
+                    "value": "four nine oh two"
+                }
+            },
+            {
+                "componentname": {
+                    "type": "literal",
+                    "value": "Digits"
+                },
+                "itemid": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "5"
+                },
+                "prompt": {
+                    "type": "literal",
+                    "value": "seven eight five six"
+                }
+            },
+            {
+                "componentname": {
+                    "type": "literal",
+                    "value": "Digits"
+                },
+                "itemid": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "type": "literal",
+                    "value": "7"
+                },
+                "prompt": {
+                    "type": "literal",
+                    "value": "two three zero one"
+                }
+            }
+        ]
+    }
+}
